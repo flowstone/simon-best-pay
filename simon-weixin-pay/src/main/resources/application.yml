@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+wx:
+  appId:  #微信小程序的appId
+  secret:  #微信小程序的Secret
+  msgDataFormat: JSON
+  unifiedOrderUrl: https://api.mch.weixin.qq.com/pay/unifiedorder #统一下单地址
+  mchId:  #商户号
+  mchKey:  #商户号密钥
+  #mchAppid:  # 企业商户appID
+  notifyUrl: http://域名/wxPay/callback #支付成功回调地址
